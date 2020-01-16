@@ -26,4 +26,3 @@ it('returns "I love you, too." if `string` is "I love you, Grandma."`', () => {
 
     it('returns "Are you eating enough?" otherwise', () => {
       expect(sayHiToGrandma('Hello')).toEqual("Are you eating enough?")
-})
